@@ -9,6 +9,15 @@
     <link href="./css/bootstrap.min.css" rel="stylesheet">
     <link rel="manifest" href="manifest.webmanifest">
     <script src="app.js"></script>
+    <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+  <script>
+    window.OneSignal = window.OneSignal || [];
+  OneSignal.push(function() {
+    OneSignal.init({
+      appId: "d85427ed-9b2e-431f-85b7-1ee1b218e8e9",
+    });
+  });
+</script>
   </head>
   <body>
 
